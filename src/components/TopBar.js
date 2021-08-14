@@ -170,7 +170,7 @@ const TopBar = () => {
 
         
         {
-          showAuthModal?
+          !user?
           <div id="loginPrompt" onClick={handleToggleModal} className="LogInPrompt">
           <div className="LogInHex">
             <h1 style={{marginBottom: '20px'}} >{signup?"Please Signup":"Please login"}</h1>
