@@ -67,20 +67,6 @@ function App() {
           </NoteProvider>
         </UserProvider>
       </BrowserRouter>
-      {/* <AuthModal />
-          <div style={{ position: "fixed", top: 0, width: "100%" }}>
-            <TopBar />
-          </div>
-
-          <div
-            style={{
-              paddingLeft: "5%",
-              paddingRight: "5%",
-              paddingTop: "5%",
-            }}
-          >
-            <NotesContainer />
-          </div> */}
     </ApolloProvider>
     </div> 
   );

@@ -36,33 +36,6 @@ export default function SimpleModal() {
   };
 
   const body = (
-  //   <div className="LogInPrompt">
-  //   <div className="LogInHex">
-  //     <h1>Please login</h1>
-
-  //     <form onSubmit={handleSubmit}>
-  //       <div>
-  //         <label htmlFor="username">Username</label>
-  //         <input
-  //           type="text"
-  //           value={formData.username}
-  //           onChange={handleChange}
-  //           name="username"
-  //         />
-  //       </div>
-  //       <div>
-  //         <label htmlFor="password">Password</label>
-  //         <input
-  //           type="password"
-  //           value={formData.password}
-  //           onChange={handleChange}
-  //           name="password"
-  //         />
-  //       </div>
-  //       <input type="submit" value="Login" />
-  //     </form>
-  //   </div>
-  // </div>
 
     <div style={modalStyle} className={classes.paper}>
       <div style={{backgroundColor:'red'}}>

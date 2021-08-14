@@ -6,7 +6,7 @@ import AuthModal from "./components/AuthModal";
 const Home = () => {
   return (
     <>
-      <AuthModal />
+      {/* <AuthModal /> */}
       <div style={{ position: "fixed", top: 0, width: "100%" }}>
         <TopBar />
       </div>

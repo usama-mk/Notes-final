@@ -55,55 +55,6 @@ export default function NoteCard({ id, title, body, onDeleteClick, saveEdit }) {
       </div>
     </div>
   </div>
-    // <Card style={{ marginBottom: "10px", width: "100%", border: "5px" }}>
-    //   <EditNoteModal
-    //     open={edit}
-    //     setOpen={setEdit}
-    //     currentTitle={title}
-    //     currentBody={body}
-    //     id={id}
-    //     saveEdit={saveEdit}
-    //   />
-    //   <CardActionArea
-    //     onClick={() => {
-    //       setEdit(true);
-    //     }}
-    //   >
-    //     <CardContent>
-    //       <Typography gutterBottom variant="h5" component="h2">
-    //         {noteTitle}
-    //       </Typography>
-    //       <Typography
-    //         variant="body2"
-    //         color="textSecondary"
-    //         component="p"
-    //         dangerouslySetInnerHTML={{ __html: noteBody }}
-    //       >
-    //         {/* {noteBody} */}
-    //       </Typography>
-    //     </CardContent>
-    //   </CardActionArea>
-    //   <CardActions>
-    //     <Button
-    //       size="small"
-    //       color="primary"
-    //       onClick={() => {
-    //         setEdit(true);
-    //       }}
-    //     >
-    //       EDIT
-    //     </Button>
-    //     <Button
-    //       startIcon={<DeleteIcon />}
-    //       color="error"
-    //       style={{ color: "red" }}
-    //       onClick={() => {
-    //         onDeleteClick(id);
-    //       }}
-    //     >
-    //       Delete
-    //     </Button>
-    //   </CardActions>
-    // </Card>
+    
   );
 }

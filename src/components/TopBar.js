@@ -157,18 +157,7 @@ const TopBar = () => {
 
     return (
       <>
-        {/* <Modal
-          open={showAuthModal}
-          onClose={() => {
-            setShowAuthModal(false);
-          }}
-          style={{ width: "100px", marginLeft: "35%" }}
-        >
-          <LoginModal handleSignup={handleSignup} handleLogin={handleLogin} />
-         
-        </Modal> */}
-
-        
+       
         {
           !user?
           <div id="loginPrompt" onClick={handleToggleModal} className="LogInPrompt">
